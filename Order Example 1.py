@@ -4,8 +4,8 @@ from huobi.utils import *
 import requests
 from time import sleep
 
-g_api_key = "bg5t6ygr6y-52449ec9-dcb2794e-160fa"
-g_secret_key = "c3518e09-d6d8b84b-3c44670d-4679b"
+g_api_key = ""
+g_secret_key = ""
 
 trade_client = TradeClient(api_key=g_api_key, secret_key=g_secret_key)
 
